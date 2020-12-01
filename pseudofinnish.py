@@ -22,16 +22,13 @@ def pse_fin(a, b):
             i = 0
             while i < a:
                    tavu = (f[randrange(1700)])
-                   #print (tavu)
                    syl_list.append(tavu)
                    i += 1
             word = ''.join([str(elem) for elem in syl_list]) 
             return word
         
         c = rand_syls(a)        
-        
         wordlist.append(c)
-                          
         i += 1
     
     return wordlist
